@@ -113,6 +113,11 @@ const Homepage = () => {
 							</div>
 						</div>
 
+						{/* ✅ Moved Work Experience Section Here */}
+						<div className="homepage-works">
+							<Works />
+						</div>
+
 						<div className="homepage-socials">
 							<a
 								href={INFO.socials.twitter}
@@ -186,10 +191,6 @@ const Homepage = () => {
 										/>
 									</div>
 								))}
-							</div>
-
-							<div className="homepage-works">
-								<Works />
 							</div>
 						</div>
 
