@@ -22,15 +22,15 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Varun Teja Boorla, from India.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"A aspiring DevOps Engineer with a strong background in Computer Science and hands-on experience in cloud deployments, CI/CD pipelines, and automation. I recently completed my Master of Science in Computer Science from Pace University, NYC, and I am currently seeking opportunities in DevOps, Cloud Engineering, and Software Development. With expertise in AWS, Jenkins, Docker, Terraform, and Git, along with Python, JavaScript, and SQL, I am passionate about building scalable and efficient cloud solutions. My industry experience includes working as a Web Developer Intern at Stuhrling Watches, where I optimized web performance and integrated APIs, and as a Junior Cloud Engineer at R Tech Technologies, where I automated cloud deployments and managed AWS infrastructure.I am deeply enthusiastic about automation, cloud security, and system optimization, constantly exploring new technologies to improve deployment workflows. My passion for technology extends beyond work, as I actively engage in cybersecurity challenges and ethical hacking. Additionally, I have contributed as Deputy Head of Tech Vision at SNIST, organizing coding competitions and tech events to foster innovation among students. I am eager to apply my skills in a dynamic environment and contribute to impactful projects in the DevOps and cloud space.📍 Based in Jersey City, USA | 🌍 Originally from India.",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "My Article",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"Just a article I wrote in my undergrad about Stock Market",
 	},
 
 	projects: [
