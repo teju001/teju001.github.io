@@ -70,3 +70,20 @@
 		height: 300px;
 	}
 }
+.project-button {
+	background-color: #007bff; /* Blue color */
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	margin-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.project-button:hover {
+	background-color: #0056b3; /* Darker blue */
+}

@@ -7,12 +7,11 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		
+		github: "https://github.com/teju001",
+		linkedin: "https://www.linkedin.com/in/varunteja-boorla/",
+		instagram: "https://www.instagram.com/varunteja_boorla/",
+		
 	},
 
 	homepage: {
@@ -35,49 +34,40 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Task Genie (Major Project)",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"● Designed and developed a web application enabling users to book and manage local service providers efficiently.\n● Implemented real-time scheduling, secure payment processing, and personalized service recommendations using React.js and Django.\n● Configured and managed Jenkins pipelines for automated CI/CD workflows, integrating Git Hooks for seamless code deployment.\n● Deployed the application to AWS EC2 instances, ensuring a streamlined and automated deployment process.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/teju001/Task-Geniee", // Add the link separately
+			
+			
 		},
 
 		{
-			title: "Project 2",
+			title: "Digit Recognizer using CNN (Intro to Deep Learning, 3rd Semester) ",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"●	Developed a convolutional neural network (CNN) for handwritten digit classification using the MNIST dataset. ●Achieved 98% test accuracy through architecture optimization and data augmentation. ●Explored hyperparameter tuning and visualization techniques to improve model interpretability",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			
 		},
 
 		{
-			title: "Project 3",
+			title: "Stock Market Prices Prediction Using Machine Learning",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"●	Worked on stock market prediction to analyze measurable data from the stock market and predict future values to help people to generate personal wealth.",
+				logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			
 		},
 
 		{
-			title: "Project 4",
+			title: "Classification model that predicts heart disease in a subject- Machine Learning [verzeo]",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"●	Worked on a classification model using machine learning to predict whether the patient has a 10-year risk of future coronary heart disease (CHD)on a dataset that provides the patient's information. It includes over 4,240 records and 15 attributes.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			
 		},
 
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+		
 	],
 };
 
