@@ -73,24 +73,27 @@
 	display: flex;
 }
 
+/* Increased padding to create space above Work Experience */
+.homepage-works {
+	flex-basis: 600px;
+	padding-top: 80px; /* Increased from 30px to 80px to create more space */
+	margin-top: 40px; /* Extra space if needed */
+}
+
+/* Increased space between Work Experience and Projects */
 .homepage-projects {
 	flex-basis: 300px;
-	padding-top: 40px;
+	padding-top: 60px; /* Increased from 40px to 60px */
 }
 
 .homepage-articles {
 	flex-basis: 900px;
-	padding-top: 30px;
+	padding-top: 50px; /* Increased from 30px to 50px */
 	margin-left: -30px;
 }
 
 .homepage-article {
 	padding-bottom: 5px;
-}
-
-.homepage-works {
-	flex-basis: 600px;
-	padding-top: 30px;
 }
 
 @media (max-width: 1024px) {
@@ -100,7 +103,7 @@
 
 	.homepage-first-area-left-side {
 		display: flex;
-		flex-direction: column; /* Changed: set direction to column */
+		flex-direction: column; /* Set direction to column */
 		align-items: flex-start;
 		width: 100%;
 		order: 2;
@@ -142,9 +145,11 @@
 		flex-basis: auto;
 	}
 
+	/* Fix spacing issue on smaller screens */
 	.homepage-works {
 		flex-basis: auto;
 		margin-left: -25px;
 		margin-right: -25px;
+		padding-top: 60px; /* Ensure spacing remains in mobile view */
 	}
 }
